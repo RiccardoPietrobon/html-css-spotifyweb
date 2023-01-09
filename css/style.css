@@ -1,0 +1,61 @@
+/* upper */
+.upper{
+    height: calc(100vh - 70px);
+    background-color: black;
+}
+
+/* aside */
+.aside{
+    width: 200px;
+    color: gray;
+    overflow: auto;
+}
+/* menu */
+.menu img{
+    height: 30px;
+}
+.menu img:hover{
+    fill: white;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+/* playlist */
+.playlist h3{
+    color: white;
+}
+.playlist .fa-solid{
+    font-size: 40px;
+}
+/* installa app */
+.installa-app{
+    margin-top: auto;
+}
+.download:hover{
+    color: white;
+    cursor: pointer;
+}
+.user img {
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+}
+/* content */
+.content{
+    width: calc(100% - 200px);
+}
+header{
+    background-color: hsl(222deg 38% 5%);
+    height: 70px;
+}
+main{
+    background-color: hsl(219deg 26% 11%);
+    height: calc(100vh - 140px);
+}
+
+/* footer */
+footer{
+    height: 70px;
+    background-color: hsl(0deg 0% 16%);
+}

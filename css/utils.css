@@ -244,6 +244,28 @@
 	justify-content: space-evenly;
 }
 
+/* FLEX-DIRECTION */
+.df-row{
+	flex-direction: row;
+}
+.df-column {
+	flex-direction: column;
+}
+
+/* ALING ITEMS */
+.fx-start{
+	align-items: flex-start;
+}
+.fx-end{
+	align-items: flex-end;
+}
+.fx-center{
+	align-items: center;
+}
+.fx-baseline{
+	align-items: baseline;
+}
+
 /* DISPLAYS */
 
 .d-flex {
