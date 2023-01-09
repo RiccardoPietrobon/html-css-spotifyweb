@@ -7,7 +7,6 @@
 /* aside */
 .aside{
     width: 200px;
-    color: gray;
     overflow: auto;
 }
 /* menu */
@@ -17,7 +16,7 @@
 .menu img:hover{
     fill: white;
 }
-li:hover{
+.menu>ul>li :hover{
     color: white;
     cursor: pointer;
 }
@@ -27,6 +26,11 @@ li:hover{
 }
 .playlist .fa-solid{
     font-size: 40px;
+    color: gray;
+}
+.playlist li :hover {
+    color: white;
+    cursor: pointer;
 }
 /* installa app */
 .installa-app{
@@ -45,6 +49,7 @@ li:hover{
 .content{
     width: calc(100% - 200px);
 }
+/* header */
 header{
     background-color: hsl(222deg 38% 5%);
     height: 70px;
@@ -62,13 +67,51 @@ header a{
 header a:hover{
     transform: scale(1.2);
 }
+/* main */
 main{
     background-color: hsl(219deg 26% 11%);
     height: calc(100vh - 140px);
     overflow: auto;
     margin-top: 70px;
 }
-
+/* nav */
+nav ul{
+    flex-wrap: wrap;
+    gap: 0 20px;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+nav a:hover{
+    color: white;
+}
+/* row */
+.box-img{
+    position: relative;
+}
+.box>*{
+    text-align: center;
+    padding-bottom: 5px;
+}
+#play {
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    top: 40%;
+    right: 40%;
+    display: none;
+}
+.box-img>img:hover{
+    filter: contrast(200%) grayscale(50%);
+}
+.box-img>img:hover + #play {
+    display: block;
+}
+.row:last-child img{
+    border-radius: 50%;
+}
 /* footer */
 footer{
     height: 70px;
