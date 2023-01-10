@@ -449,6 +449,58 @@
 	.d-none-xl {
 		display: none;
 	}
+	/* ALIGNMENT */
+
+	.jc-center-xl {
+		justify-content: center;
+	}
+
+	.jc-flex-start-xl {
+		justify-content: flex-start;
+	}
+
+	.jc-flex-end-xl {
+		justify-content: flex-end;
+	}
+
+	.jc-space-between-xl {
+		justify-content: space-between;
+	}
+
+	.jc-space-around-xl {
+		justify-content: space-around;
+	}
+
+	.jc-space-evenly-xl {
+		justify-content: space-evenly;
+	}
+
+	/* FLEX-DIRECTION */
+	.df-row-xl {
+		flex-direction: row;
+	}
+
+	.df-column-xl {
+		flex-direction: column;
+	}
+
+	/* ALING ITEMS */
+	.fx-start-xl {
+		align-items: flex-start;
+	}
+
+	.fx-end-xl {
+		align-items: flex-end;
+	}
+
+	.fx-center-xl {
+		align-items: center;
+	}
+
+	.fx-baseline-xl {
+		align-items: baseline;
+	}
+
 
 	.col-xl-1 {
 		flex-basis: calc((100% / 12) * 1);
@@ -592,6 +644,58 @@
 		display: none;
 	}
 
+	/* ALIGNMENT */
+
+	.jc-center-lg {
+		justify-content: center;
+	}
+
+	.jc-flex-start-lg {
+		justify-content: flex-start;
+	}
+
+	.jc-flex-end-lg {
+		justify-content: flex-end;
+	}
+
+	.jc-space-between-lg {
+		justify-content: space-between;
+	}
+
+	.jc-space-around-lg {
+		justify-content: space-around;
+	}
+
+	.jc-space-evenly-lg {
+		justify-content: space-evenly;
+	}
+
+	/* FLEX-DIRECTION */
+	.df-row-lg {
+		flex-direction: row;
+	}
+
+	.df-column-lg {
+		flex-direction: column;
+	}
+
+	/* ALING ITEMS */
+	.fx-start-lg {
+		align-items: flex-start;
+	}
+
+	.fx-end-lg {
+		align-items: flex-end;
+	}
+
+	.fx-center-lg {
+		align-items: center;
+	}
+
+	.fx-baseline-lg {
+		align-items: baseline;
+	}
+
 	.col-lg-1 {
 		flex-basis: calc((100% / 12) * 1);
 		max-width: calc((100% / 12) * 1);
@@ -733,6 +837,58 @@
 		display: none;
 	}
 
+	/* ALIGNMENT */
+
+	.jc-center-md {
+		justify-content: center;
+	}
+
+	.jc-flex-start-md {
+		justify-content: flex-start;
+	}
+
+	.jc-flex-end-md {
+		justify-content: flex-end;
+	}
+
+	.jc-space-between-md {
+		justify-content: space-between;
+	}
+
+	.jc-space-around-md {
+		justify-content: space-around;
+	}
+
+	.jc-space-evenly-md {
+		justify-content: space-evenly;
+	}
+
+	/* FLEX-DIRECTION */
+	.df-row-md {
+		flex-direction: row;
+	}
+
+	.df-column-md {
+		flex-direction: column;
+	}
+
+	/* ALING ITEMS */
+	.fx-start-md {
+		align-items: flex-start;
+	}
+
+	.fx-end-md {
+		align-items: flex-end;
+	}
+
+	.fx-center-md {
+		align-items: center;
+	}
+
+	.fx-baseline-md {
+		align-items: baseline;
+	}
+
 	.col-md-1 {
 		flex-basis: calc((100% / 12) * 1);
 		max-width: calc((100% / 12) * 1);
@@ -869,6 +1025,58 @@
 
 	.d-none-sm {
 		display: none;
+	}
+
+	/* ALIGNMENT */
+
+	.jc-center-sm {
+		justify-content: center;
+	}
+
+	.jc-flex-start-sm {
+		justify-content: flex-start;
+	}
+
+	.jc-flex-end-sm {
+		justify-content: flex-end;
+	}
+
+	.jc-space-between-sm {
+		justify-content: space-between;
+	}
+
+	.jc-space-around-sm {
+		justify-content: space-around;
+	}
+
+	.jc-space-evenly-sm {
+		justify-content: space-evenly;
+	}
+
+	/* FLEX-DIRECTION */
+	.df-row-sm {
+		flex-direction: row;
+	}
+
+	.df-column-sm {
+		flex-direction: column;
+	}
+
+	/* ALING ITEMS */
+	.fx-start-sm {
+		align-items: flex-start;
+	}
+
+	.fx-end-sm {
+		align-items: flex-end;
+	}
+
+	.fx-center-sm {
+		align-items: center;
+	}
+
+	.fx-baseline-sm {
+		align-items: baseline;
 	}
 
 	.col-sm-1 {
@@ -1011,6 +1219,59 @@
 	.d-none-xs {
 		display: none;
 	}
+
+	/* ALIGNMENT */
+
+	.jc-center-xs {
+		justify-content: center;
+	}
+
+	.jc-flex-start-xs {
+		justify-content: flex-start;
+	}
+
+	.jc-flex-end-xs {
+		justify-content: flex-end;
+	}
+
+	.jc-space-between-xs {
+		justify-content: space-between;
+	}
+
+	.jc-space-around-xs {
+		justify-content: space-around;
+	}
+
+	.jc-space-evenly-xs {
+		justify-content: space-evenly;
+	}
+
+	/* FLEX-DIRECTION */
+	.df-row-xs {
+		flex-direction: row;
+	}
+
+	.df-column-xs {
+		flex-direction: column;
+	}
+
+	/* ALING ITEMS */
+	.fx-start-xs {
+		align-items: flex-start;
+	}
+
+	.fx-end-xs {
+		align-items: flex-end;
+	}
+
+	.fx-center-xs {
+		align-items: center;
+	}
+
+	.fx-baseline-xs {
+		align-items: baseline;
+	}
+
 
 	.col-xs-1 {
 		flex-basis: calc((100% / 12) * 1);
