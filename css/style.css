@@ -1,6 +1,6 @@
 /* upper */
 .upper{
-    height: calc(100vh - 70px);
+    height: calc(100vh - 100px);
     background-color: black;
 }
 
@@ -70,7 +70,7 @@ header a:hover{
 /* main */
 main{
     background-color: hsl(219deg 26% 11%);
-    height: calc(100vh - 140px);
+    height: calc(100vh - 170px);
     overflow: auto;
     margin-top: 70px;
 }
@@ -114,6 +114,136 @@ nav a:hover{
 }
 /* footer */
 footer{
-    height: 70px;
+    height: 100px;
     background-color: hsl(0deg 0% 16%);
+}
+footer img{
+    height: 50px;
+}
+/* foot left */
+.foot-left{
+    gap: 10px;
+}
+.foot-left h4{
+    color: white;
+}
+.foot-left h5 {
+    color: gray;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.foot-left .fa-regular{
+    color: gray;
+}
+.foot-left h5:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.foot-left .fa-regular:hover {
+    color: white;
+    cursor: pointer;
+}
+/* foot centre */
+.foot-center i{
+    color: white;
+    font-size: 20px;
+    padding: 0 15px;
+}
+.foot-center .fa-regular{
+    font-size: 30px;
+}
+.foot-center i:hover {
+    color: hsl(84deg 100% 59%);
+    cursor: pointer;
+}
+.foot-center .fa-regular:hover {
+    transform: scale(1.1);
+}
+/* barra */
+.barra{
+    position: relative;
+    width: 400px;
+    background-color: gray;
+}
+.time{
+    padding: 0 15px;
+}
+.time{
+    color: white;
+    font-size: 12px;
+}
+.bar1{
+    width: 150px;
+    background-color: lightgray;
+}
+.bar1, .barra{
+    border-radius: 5px;
+    height: 4px;
+}
+.bar1::after{
+    content: " ";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+.barra:hover .bar1{
+    background-color: hsl(84deg 100% 59%);
+    cursor: pointer;
+}
+.barra:hover .bar1::after {
+    display: block;
+}
+.barra:hover{
+    cursor: pointer;
+}
+/* foot-right */
+.foot-right .fa-solid{
+    color: white;
+}
+.foot-right .fa-solid:hover {
+    color: hsl(84deg 100% 59%);
+    cursor: pointer;
+}
+/* barra-sound */
+.barra-sound {
+    position: relative;
+    width: 150px;
+    background-color: gray;
+}
+.bar1-sound {
+    width: 50px;
+    background-color: lightgray;
+}
+
+.bar1-sound,
+.barra-sound {
+    border-radius: 5px;
+    height: 4px;
+}
+
+.bar1-sound::after {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    display: none;
+    position: absolute;
+}
+
+.barra-sound:hover .bar1-sound {
+    background-color: hsl(84deg 100% 59%);
+    cursor: pointer;
+}
+
+.barra-sound:hover .bar1-sound::after {
+    display: block;
+}
+
+.barra-sound:hover {
+    cursor: pointer;
 }
