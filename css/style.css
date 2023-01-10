@@ -59,7 +59,7 @@ header{
     background-color: hsl(222deg 38% 5%);
     height: 70px;
     position: fixed;
-    width: calc(100% - 200px);
+    width: calc(100% - 220px);
     opacity: 0.8;
     z-index: 5;
 }
@@ -114,6 +114,7 @@ nav a:hover{
 }
 .box-img>img:hover{
     filter: contrast(200%) grayscale(50%);
+    cursor: pointer;
 }
 .box-img>img:hover + #play {
     display: block;
@@ -171,7 +172,6 @@ footer img{
 }
 /* barra */
 .barra{
-    position: relative;
     width: 400px;
     background-color: gray;
 }
@@ -183,21 +183,25 @@ footer img{
     font-size: 12px;
 }
 .bar1{
-    width: 150px;
+    width: 30%;
     background-color: lightgray;
+    display: block;
+    position: relative;
 }
 .bar1, .barra{
     border-radius: 5px;
     height: 4px;
 }
 .bar1::after{
-    content: " ";
+    content: "";
     width: 15px;
     height: 15px;
     border-radius: 50%;
     background-color: white;
     display: none;
     position: absolute;
+    top: -5px;
+    right: -5px;
 }
 .barra:hover .bar1{
     background-color: hsl(84deg 100% 59%);
@@ -224,8 +228,9 @@ footer img{
     background-color: gray;
 }
 .bar1-sound {
-    width: 50px;
+    width: 30%;
     background-color: lightgray;
+    position: relative;
 }
 
 .bar1-sound,
@@ -235,13 +240,15 @@ footer img{
 }
 
 .bar1-sound::after {
-    content: " ";
-    width: 15px;
-    height: 15px;
+    content: "";
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background-color: white;
     display: none;
     position: absolute;
+    top: -4px;
+    right: -4px;
 }
 
 .barra-sound:hover .bar1-sound {
@@ -264,9 +271,6 @@ footer img{
     .barra{
         width: 300px;
     }
-    .bar1{
-        width: 110px;
-    }
 }
 
 /* MEDIUM DEVICES - md */
@@ -275,10 +279,6 @@ footer img{
 
     .barra {
         width: 200px;
-    }
-    
-    .bar1 {
-        width: 70px;
     }
 }
 
@@ -292,7 +292,7 @@ footer img{
         width: calc(100% - 50px);
     }
     header{
-        width: calc(100% - 50px);
+        width: calc(100% - 70px);
     }
     .logo img:last-child {
         height: 30px;
@@ -300,9 +300,5 @@ footer img{
     }
     .barra {
         width: 100px;
-    }
-
-    .bar1 {
-        width: 25px;
     }
 }
