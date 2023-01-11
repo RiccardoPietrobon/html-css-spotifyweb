@@ -271,6 +271,10 @@ footer img{
     .barra{
         width: 300px;
     }
+    .row{
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
 }
 
 /* MEDIUM DEVICES - md */
@@ -300,5 +304,13 @@ footer img{
     }
     .barra {
         width: 100px;
+    }
+}
+
+/* SHORT DEVICES */
+
+@media screen and (max-height: 350px) {
+    .content header{
+        display: none;
     }
 }
