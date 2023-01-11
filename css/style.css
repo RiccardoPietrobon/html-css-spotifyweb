@@ -23,6 +23,10 @@
     color: white;
 }
 /* playlist */
+.playlist{
+    min-height: 250px;
+    overflow: auto;
+}
 .playlist h3{
     color: white;
 }
@@ -49,6 +53,12 @@
     width: 30px;
     background-color: gray;
     border-radius: 50%;
+    transition: 1s;
+}
+.user img:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+    transform: scale(1.2);
 }
 /* content */
 .content{
@@ -70,9 +80,11 @@ header a{
     border-radius: 20px;
     font-size: 12px;
     padding: 5px 30px;
+    transition: 0.2s;
 }
 header a:hover{
     transform: scale(1.2);
+    transform-origin: right;
 }
 /* main */
 main{
